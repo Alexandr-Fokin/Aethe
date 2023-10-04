@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #FAFAFA;
+    --primary-color: #1F5C93;
+    --accent-color: #EB6363;
+    --transparent-accent-color: rgba(31, 92, 147, 0.8);
+
+    --font-gcm: 'Gogono Cocoa Mochi Cyrillic', sans-serif;
+    --font-rl: 'Raleway', sans-serif;
+}
+
+/* Регистрация файла шрифтов */
+/* @font-face {
+    font-family: 'Gogono Cocoa Mochi Cyrillic', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://sporte.co/sporteco2/wp-content/themes/sporteco/assets/fonts/Gogoa/gogono-cocoa-mochi-cyrillic.otf') format("opentype");
+
+} */
+
+body {
+    font-family: var(--font-pl);
+    background: var(--bg-color);
+}
+

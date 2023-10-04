@@ -1,0 +1,18 @@
+:root {
+    --font-roboto: 'Roboto', sans-serif;
+    --font-voll: 'Vollkorn', serif;
+
+
+    --col-dark-font: #000000;
+    --col-light-font: #ffffff;
+    --col-darklight-font: rgba(255, 255, 255, 0.6);
+
+    --col-block-dark-footer: rgba(28, 10, 5, 0.12);
+    --col-dark-footer: #D5B187;
+
+
+    --text-size-xs: 18px;
+    --text-size-sm: 20px;
+    --text-size-md: 27px;
+    --text-size-lg: 34px;
+}
