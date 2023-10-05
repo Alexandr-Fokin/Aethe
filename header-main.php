@@ -18,20 +18,22 @@
         <header class="header-main">
             <div class="header__top main">
                 <div class="container">
-                    <div class="header__menu-left">
+                    <div class="header__top_left">
+                        <a href="" class="header__menu-link">About Us</a>
+                        <a href="" class="header__menu-link">Portfolio</a>
+                        <a href="" class="header__menu-link">Services</a>
+                    </div>
+                    <div class="header__center_right">
                         <div class="header__logo">
                             <a href="<?php echo get_permalink(6); ?>">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt="">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img/logo.svg" alt="">
                             </a>
                         </div>
                     </div>
-                    <nav class="header__menu-right">
-                        <div class="header__btn-menu">
-                            <span class="icon-menu"></span>
-                        </div>
-                        <ul>
-                            <?php wp_nav_menu(array('theme_location' => 'header')); ?>
-                        </ul>
+                    <nav class="header__top_right">
+                        <a href="" class="header__menu-link">Stages</a>
+                        <a href="" class="header__menu-link">Price</a>
+                        <a href="" class="header__menu-link">Contacts</a>
                     </nav>
                 </div>
             </div>
