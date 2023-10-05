@@ -9,6 +9,7 @@
 get_header();
 ?>
 
+
 <section class="error__section">
 	<div class="container">
 		<div class="error__inner">
