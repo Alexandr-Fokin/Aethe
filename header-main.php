@@ -9,7 +9,7 @@
 <body>
     <nav class="menu-mob" id="menu">
         <ul>
-            <div class="menu-mob__title">Меню</div>
+            <div class="menu-mob__title">Menu</div>
             <?php wp_nav_menu(array('theme_location' => 'header')); ?>
             <a data-fancybox data-src="#popup__form" class="header__btn header__mob-btn">Связаться</a>
         </ul>
