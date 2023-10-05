@@ -161,6 +161,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/css\/thanks-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/thanks-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/css\/thanks.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -258,6 +270,26 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/assets\/img\/header-logo-cover-left.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/header-logo-cover-left.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/img\/header-logo-cover-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/header-logo-cover-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/img\/logo.png" : {
       "ft" : 32768,
       "iS" : 15503,
@@ -270,6 +302,16 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/assets\/img\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/assets\/js\/aos.js" : {
       "bF" : 0,
@@ -347,6 +389,21 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/assets\/scss\/header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/header.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/footer-thanks.php" : {
       "cB" : 0,
@@ -470,7 +527,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 718145737.58437502,
-    "displayValue" : "aethe",
+    "displayValue" : "aethetheme",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-ariel",
     "iconImageWasSetByUser" : 1

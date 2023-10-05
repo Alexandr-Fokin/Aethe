@@ -4,8 +4,7 @@
     --accent-color: #EB6363;
     --transparent-accent-color: rgba(31, 92, 147, 0.8);
 
-    --font-gcm: 'Gogono Cocoa Mochi Cyrillic', sans-serif;
-    --font-rl: 'Raleway', sans-serif;
+	--font-dm: 'DM Sans', sans-serif;
 }
 
 .error__section {
@@ -34,7 +33,7 @@
 }
 
 .error__number {
-    font-family: var(--font-gcm);
+    font-family: var(--font-dm);
     font-weight: 400;
     font-size: 120px;
     line-height: 140px;
@@ -61,7 +60,7 @@
 }
 
 .error__title {
-    font-family: var(--font-gcm);
+    font-family: var(--font-dm);
     max-width: 340px;
     font-weight: 400;
     font-size: 48px;
