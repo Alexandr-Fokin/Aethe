@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34518",
   "files" : {
+    "\/.github\/workflows\/deploy.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.github\/workflows\/deploy.yml",
+      "oF" : 0
+    },
     "\/404.php" : {
       "cB" : 0,
       "ft" : 8192,
