@@ -55,11 +55,15 @@
                     <div class="header__bottom-content">
                         <div class="header__bottom-upper">
                             <div class="header__version">1.0</div>
-                            <h1 class="header__title" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">SITES THAT BRING SALES</h1>
-                            <p class="header__descr" data-aos="fade-up" data-aos-duration="400" data-aos-delay="200">turnkey website development</p>
-                            <p class="header__descr" data-aos="fade-up" data-aos-duration="400" data-aos-delay="200">design in figma</p>
-                            <p class="header__descr" data-aos="fade-up" data-aos-duration="400" data-aos-delay="200">3D modeling and vizualization</p>
-                            <a data-fancybox data-src="#popup__form" class="header__btn" data-aos="fade-up" data-aos-duration="400" data-aos-delay="300">contact</a>
+                            <h1 class="header__title ml6">
+                                <span class="text-wrapper">
+                                    <span class="letters">SITES THAT BRING SALES</span>
+                                </span>
+                            </h1>
+                            <p class="header__descr">turnkey website development</p>
+                            <p class="header__descr">design in figma</p>
+                            <p class="header__descr">3D modeling and vizualization</p>
+                            <a data-fancybox data-src="#popup__form" class="header__btn">contact</a>
                         </div>
                         <div class="header__bottom-lower">
                             <a href="#" class="header__bottom-link link-tg">telegram</a>

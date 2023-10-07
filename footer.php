@@ -3,7 +3,7 @@
         <div class="footer__inner">
             <div class="footer__logo">
                 <a href="<?php echo get_permalink(6); ?>">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/footer-logo.png" alt="">
+
                 </a>
             </div>
             <a href="#">Политика конфиденциальности </a>
@@ -14,6 +14,8 @@
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 <script>
     var slideout = new Slideout({
         'panel': document.getElementById('panel'),
