@@ -117,3 +117,40 @@ document.addEventListener('wpcf7mailsent', function (event) {
 
 
 
+
+function scrollingAnimation(section) {
+
+  let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+  };
+
+  let callback = (entries, observer) => {
+      entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+              // Элемент виден внутри области наблюдения.
+              // Выполните необходимые действия.
+              document.querySelector(`${section}`).classList.add('scrolled');
+          } else {
+              // Элемент скрыт вне области наблюдения.
+              // Выполните необходимые действия.
+          }
+
+      });
+  };
+  let observer = new IntersectionObserver(callback, options);
+
+  let target = document.querySelector(`${section}`);
+  observer.observe(target);
+}
+if (document.querySelector('.homepage')) {
+  scrollingAnimation('.header__slider');
+  scrollingAnimation('.catalogue__section');
+  scrollingAnimation('.banner-conf__section');
+  scrollingAnimation('.furniture__section');
+  scrollingAnimation('.banner-part__section');
+  scrollingAnimation('.exclusive__section');
+  scrollingAnimation('.collection__section');
+  scrollingAnimation('.trust__section');
+}

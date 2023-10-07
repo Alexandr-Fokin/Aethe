@@ -43,6 +43,7 @@ add_action('wp_enqueue_scripts', function () {
 	wp_enqueue_script('aos', get_template_directory_uri() . '/assets/js/aos.js', array('jquery'), 'null', true);
 	wp_enqueue_script('fancybox', "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js", array('jquery'), 'null', true);
 	wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), 'null', true);
+	wp_enqueue_script('header', get_template_directory_uri() . '/assets/js/header.js', array('jquery'), 'null', true);
 
 	/*
 	if( is_page_template('templates/diaries.php')){

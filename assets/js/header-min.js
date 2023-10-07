@@ -1,0 +1,1 @@
+$(window).on("load",(function(){document.querySelector(".header-main")&&function(e){let o=new IntersectionObserver(((o,r)=>{o.forEach((o=>{o.isIntersecting&&document.querySelector(`${e}`).classList.add("scrolled")}))}),{root:null,rootMargin:"0px",threshold:.5}),r=document.querySelector(`${e}`);o.observe(r)}(".header-main")}));
